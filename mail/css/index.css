@@ -1,0 +1,123 @@
+.d-body{
+
+    background-color: black;
+
+    color: white;
+
+}
+.d-body .contact{
+    color: #29C4CA;
+    font-size: 3em;
+    font-family: 'Audiowide-Regular';
+    margin-top: 60px;
+}
+.inputall{
+    font-size: 1.5em;
+}
+.inputall input{
+    width: 340px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: black;
+    outline: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    
+
+}
+.inemail{
+    margin: 0 15px;
+}
+.inmessage textarea{
+    width: 1080px;
+    height: 280px;
+    background-color: black;
+    outline: none;
+    color: white;
+    margin-bottom: 15px;
+}
+ .send input{
+    width:71px;
+    height: 35px;
+     outline: none;
+    color: #29c4ca;
+     border: 1px solid #29c4ca;
+     margin-bottom: 20px;
+
+}
+ .inputall input:hover{
+     border: 1px solid #29c4ca;
+    color: white;
+}
+.send input:hover{
+    background-color: #29c4ca;
+    color: white;
+}
+.address-grid i{
+    color:#29C4CA;
+    font-size:4em;
+    float: left;
+    margin: 0 9% 0 0;
+    display: inline-block;
+}
+.address{
+    height: 300px;
+}
+.address-grid i{
+    color:#29C4CA;
+    font-size:4em;
+    float: left;
+    margin: 0 9% 0 0;
+    display: inline-block;
+}
+.glyphicon-phone:before {
+     content: "\e145";
+ }
+.glyphicon-globe:before {
+    content: "\e135";
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.address1{
+    margin-top: 0.5em;
+}
+.address1 p{
+    font-size:1.8em;
+    color: #fff;
+    line-height: 1.5em;
+}
+.address-more{
+    width: 400px;
+}
+.address-more h4{
+    color:#fff;
+    font-size:2em;
+    margin: 0 0 0.7em;
+    font-family: 'Audiowide-Regular';
+}
+.grid-address{
+    padding: 2em 0 0;
+}
+.address {
+    padding: 3em 0 0;
+}
+.imgPic{
+    position: relative;
+
+}
+.imgPic img{
+    position: absolute;
+    margin-left:100px;
+    top: -95px;
+}

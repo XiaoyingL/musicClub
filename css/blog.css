@@ -1,0 +1,375 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+/*各浏览器显示不同，去掉蓝色边框*/
+
+ul, ol {
+    list-style: none;
+}
+
+/*去掉行内替换元素空白缝隙*/
+select, input {
+    vertical-align: middle;
+}
+
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+/*防止拖动 影响布局*/
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #000;
+}
+
+
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    background-color: transparent;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+.blog-grid h4 {
+    font-size: 1.5em;
+    font-family: 'Audiowide-Regular';
+}
+h1, h2, h3, h4, h5, h6, p, label {
+    margin: 0;
+}
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-md-9 {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.blog {
+    /*padding: 100px 0 50px;*/
+    background-color: black;
+    /*position: relative;*/
+}
+.blog {
+    padding: 4em 0 2em;
+}
+.blog h3 {
+    font-size: 3em;
+    color: #29C4CA;
+    margin: 0 15px 0.5em;
+    font-family: 'Audiowide-Regular';
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    width: 1170px;
+    position: relative;
+}
+
+
+
+.header {
+    background: url(../images/back.jpg) no-repeat;
+    width: 100%;
+    height: 150px;
+    display: block;
+    background-size: cover;
+}
+
+/*.col-md-9 {*/
+    /*width: 75%;*/
+    /*float: left;*/
+/*}*/
+
+/*blog底部部分开始*/
+.blog-grid{
+    border: 1px solid #8E8E8E;
+    background: #fff;
+    width: 825px;
+    height: 777.969px;
+    margin-bottom: 50px;
+}
+/*上面的轮播图样式*/
+.all1 {
+    width: 823px;
+    height: 416px;
+    /*padding: 7px;*/
+    /*border: 1px solid #ccc;*/
+    /*margin: 100px auto;*/
+    position: relative;
+}
+
+.screen1 {
+    width: 823px;
+    height: 416px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen1 li {
+    width: 823px;
+    height: 416px;
+    overflow: hidden;
+    float: left;
+}
+
+.screen1 ul {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 4115px;
+}
+
+.all1 ol {
+    position: absolute;
+    right: 350px;
+    bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.all1 ol li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius:10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.all1 ol li.current {
+    background: #ACF0E7;
+}
+
+#arr1 {
+    display: none;
+}
+
+#arr1 span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    background: #000;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+
+#arr1 #right1 {
+    right: 5px;
+    left: auto;
+}
+/*下面轮播图部分样式开始*/
+.all {
+    width: 823px;
+    height: 416px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.screen {
+    /*width: 825px;*/
+    height: 416px;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}
+
+.screen li {
+    border: 1px solid silver;
+    overflow: hidden;
+    float: left;
+}
+
+/*轮播图部分样式结束*/
+
+/*图片的样式*/
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*图片下面小标题的样式*/
+.lone-line {
+    padding: 2em;
+}
+.blog-grid h4 {
+    font-size: 30px;
+    font-family: 'Audiowide-Regular';
+    font-weight:700;
+}
+.blog-grid h4 a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*内容部分*/
+
+.blog-grid p {
+    font-size: 1.1em;
+    color: #504D4D;
+    line-height: 1.6em;
+}
+p.due {
+    padding: 0.7em 0 1.5em;
+}
+a.more {
+    border: 1px solid #29C4CA;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 0.5em 0.7em;
+    color: #29C4CA;
+}
+/*右侧导航部分开始*/
+.grid-categories{
+    float: right;
+    width: 253px;
+    height: 441px;
+    background-color: white;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    /*overflow: hidden;*/
+}
+
+/*左侧导航部分*/
+ul.popular,.cate-cate{
+    /*border:1px solid #8E8E8E;*/
+    background: #fff;
+}
+.cate-img{
+    padding:15px;
+}
+ul.popular li{
+    list-style: none;
+    /*height: 30px;*/
+}
+ul.popular li  i{
+    margin: 0em 18px;
+    color:#504D4D;
+    font-size: 0.8em;
+}
+ul.popular li a{
+    text-decoration: none;
+    font-size: 1em;
+    color:#504D4D;
+    margin:1em 0 0;
+    display: block;
+}
+ul.popular li a:hover{
+    color: #29C4CA;
+}
+.cate-top{
+    padding:0em 0 2.8em;
+}
+.cate-cate h6{
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color:#000;
+}
+.cate-cate h6 i{
+    font-size: 0.7em;
+    color:#000;
+    margin: 0 18px;
+}
+/*右侧导航部分结束*/
+.grid-categories h4 {
+    margin-top: 0;
+    font-size: 1.4em;
+    background: #29C4CA;
+    color: #fff;
+    padding: 0.5em 1em;
+    font-family: 'Audiowide-Regular';
+}
+
+.cate-cate h6 {
+    margin: 0 0 10px 20px;
+    font-size: 18px;
+    color: #000;
+}
+/*评论内容箭头*/
+.head-blog span{
+    cursor: pointer;
+}
+.cate-cate p {
+    margin: 0 0 1em 2em;
+    font-size: 0.9em;
+    color: #504D4D;
+    text-align: justify;
+    line-height: 17px;
+    display:none;
+}
+
+

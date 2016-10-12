@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+}
+
+.main {
+    background-color: #000;
+    width: 100%;
+}
+
+.main .content {
+    padding-left: 15px;
+    width: 1130px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.main .content h3 {
+    font-size: 40px;
+    color: #29C4CA;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-family: 'Audiowide-Regular';
+}
+
+.main .content li {
+    float: left;
+    border: 1px solid #0B3637;
+    padding: 8px;
+    margin: 0 4px 4px 0;
+    position: relative;
+}
+
+.main .content li a {
+
+}
+
+.content li img {
+    width: 353px;
+    height: 242px;
+}
+
+.content li div {
+    display: none;
+    width: 353px;
+    height: 242px;
+    text-align: center;
+    font-family: "Imprima-Regular";
+    color: #fff;
+    position: absolute;
+    background-color: #29C4CA;
+}
+
+.content li div h5 {
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.content li div span {
+    padding: 10px 0;
+    margin: 0 20px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#wrap {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#mask {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9; /*半透明*/
+    filter: alpha(opacity=80); /*ie 6半透明*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*display: block;*/
+    background-color: #29C4CA;
+}
+
+#show {
+    width: 353px;
+    height: 242px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -150px 0 0 -175px;
+    overflow: hidden;
+}
+
+#show ul {
+    width: 3000px;
+}
+
+#show li {
+    float: left;
+    display: none;
+}
+
+#closeBtn {
+    position: fixed;
+    left: 500px;
+    top: 140px;
+}
+
+#leftBtn {
+    position: fixed;
+    left: 430px;
+    top: 270px;
+}
+
+#rightBtn {
+    position: fixed;
+    right: 430px;
+    top: 270px;
+}

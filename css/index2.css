@@ -1,0 +1,301 @@
+/*表头底部轮播图*/
+.wrap{
+    width:1200px;
+    height: 540px;
+    margin:4px auto;
+    position: relative;
+
+}
+.slide {
+    height:354px;
+
+}
+.slide ul{
+    /*width:1200px;*/
+    /*height: 500px;*/
+    /*background-color: yellowgreen;*/
+
+}
+.slide li{
+    position: absolute;
+    left:200px;
+    top:0;
+}
+.slide li img{
+    width:100%;
+}
+.arrow{
+    opacity: 0;
+}
+.prev,.next{
+    width:76px;
+    height:112px;
+    position: absolute;
+    top:50%;
+    margin-top:-56px;
+    background: url(../images/prev.png) no-repeat;
+    z-index: 99;
+}
+.next{
+    right:0;
+    background-image: url(../images/next.png);
+}
+
+/*表头底部文本*/
+ .header-bt{
+    color:#FFFFFF;
+    font-size: 2em;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+ .header-bd{
+    color:#FFFFFF;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 16px;
+    font-family: 'Imprima-Regular';
+}
+
+/*中间内容部分主题结构*/
+/*.conter{*/
+    /*width: 100%;*/
+    /*height: 760px;*/
+    /*background-color: black;*/
+    /*overflow: hidden;*/
+/*}*/
+/*中间欢迎部分*/
+.welcome{
+    width: 1110px;
+    height: 300px;
+    margin: 50px auto;
+}
+.welcome-l{
+    float: left;
+    width: 640px;
+}
+/*中间部分  文本*/
+.welcome-l .p1{
+    font-size: 2.2em;
+    color: #29C4CA;
+}
+.welcome-l .p2{
+    color: white;
+    line-height: 26px;
+    font-family: 'Imprima-Regular';
+    margin-top:12px;
+}
+/*欢迎部分右侧*/
+.welcome-r{
+    float: right;
+    width: 445px;
+    height: 300px;
+}
+.one,.two,.tre,.fore{
+    float: left;
+    height: 150px;
+
+}
+/*右侧分类样式*/
+.one{
+    width: 223px;
+    background-color: #29C4CA;
+}
+.two{
+    width: 222px;
+    background-color: #1BD1D8;
+}
+.tre{
+    width: 223px;
+    background: #1FACB2;
+}
+.fore{
+    width: 222px;
+    background-color: #08C2CA;
+}
+.welcome-r img{
+    margin-left: 79px;
+    margin-top:43px;
+}
+/*明星歌手部分*/
+
+
+.star a{
+    float: left;
+}
+/*明星歌手图片*/
+.star a img{
+    display: block;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.starup {
+    heigth: 180px;
+}
+/*明星歌手下部分*/
+.star .ov{
+    padding-left: 15px;
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #29C4CA;
+    color: white;
+}
+.star .ov:hover{
+    background-color: white;
+    color: #29C4CA;
+}
+.star .ov i{
+    margin-left: 150px;
+}
+/*welcome end*/
+/*team部分开始*/
+.team{
+    height:685px;
+    background:url("../images/back1.jpg") no-repeat bottom;
+    background-size: cover;
+}
+.team_main{
+    overflow: hidden;
+}
+.team_title{
+    height:40px;
+    margin-top:45px;
+
+}
+.team_title h3{
+    display:inline-block;
+    line-height:40px;
+    font-size:3em;
+    font-weight:500;
+    color:white;
+
+
+}
+
+
+.team_content{
+    height:500px;
+    margin-top:45px;
+}
+.team_box{
+    width:484px;
+    height:171px;
+    background-color: #FFFFFF;
+    padding:28px;
+    position:relative;
+
+}
+.team_box .img_div{
+    width:80px;
+    height:100%;
+
+    /*overflow: hidden;*/
+    float:left;
+}
+.team_box .img_div img{
+    width:100%;
+    border-radius:40px;
+}
+
+
+.team_box .text_div{
+    width:375px;
+    float:left;
+    padding-left:15px;
+}
+
+.team_box h5{
+    font-size: 1.3em;
+    color: #29C4CA;
+    font-family: 'Audiowide-Regular';
+    /*float:left;*/
+}
+.team_box p{
+    font-size:15px;
+    color:#504D4D;
+    margin-top:10px;
+    line-height:24px;
+}
+.team_box .text_div a{
+    margin-top:10px;
+    display:block;
+    color:#000000;
+
+    /*background-color: #000000;*/
+}
+.team_box .text_div a:hover{
+    color:#29C4CA;
+}
+
+
+
+.team_top{
+    height:227px;
+
+}
+.team_top_1{
+    float:left;
+}
+
+
+.team_top_2{
+    float:right;
+
+}
+.team_bottom{
+    height:227px;
+    margin-top:42px;
+}
+
+.team_bottom_1{
+    float:left;
+}
+.team_bottom_2{
+    float:right;
+}
+
+
+/*team部分结束*/
+
+/*kld部分开始*/
+.kld{
+    height:470px;
+    /*background-color: darkgray;*/
+    overflow: hidden;
+}
+.kld_main{
+    height:360px;
+    margin-top:56px;
+    /*background-color: gray;*/
+
+}
+.kld_left{
+    width: 540px;
+    float:left;
+}
+.kld_left h3{
+    display:inline-block;
+    color: #29C4CA;
+    font-size: 26px;
+    font-family: Audiowide-Regular;
+
+}
+.kld_left p{
+    margin-top:10px;
+    line-height:26px;
+    font-size:16px;
+    font-family:Imprima-Regular;
+}
+
+.kld_right{
+    width:540px;
+    float:right;
+}
+
+.kld_right img{
+    width:100%;
+}
+/*kld部分结束*/
